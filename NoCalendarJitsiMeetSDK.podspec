@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'http://example.com'
     s.license          = { :file => '../LICENSE' }
     s.author           = { 'Your Company' => 'email@example.com' }
-    s.source           = { :path => '.' }
+    s.source           = { :git => 'https://github.com/LLAMA-Code-LLC/NoCalendarJitsiMeetSDK.git', :tag => s.version.to_s  }
     # s.source_files = 'Classes/**/*'
     s.dependency 'Flutter'
     # s.dependency 'JitsiMeetSDK', '3.3.0'
